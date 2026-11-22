@@ -1,100 +1,31 @@
-# 🧠 MNIST Neural Network From Scratch (NumPy)
+## Hi, I'm Safiya
 
-A feedforward neural network implemented entirely from scratch using **NumPy** to classify handwritten digits from the MNIST dataset. This project demonstrates the core mathematics behind neural networks without using deep learning frameworks such as TensorFlow, PyTorch, or Keras.
+Final-year Computer Science (AI) student in Riyadh, working on **clinical machine learning and the evaluation of LLMs in healthcare**: whether models are accurate, honest about their limits and fair across patients.
 
-## Features
+Currently a Machine Learning Intern at FlyRank AI, contributing to supervised ICU-admission research, and building **MOSAIC**, which tests whether a longitudinal view of fragmented patient records predicts deterioration better than single encounters.
 
-- Fully connected neural network built with NumPy
-- Forward propagation
-- Backpropagation
-- Gradient descent optimization
-- ReLU activation function
-- Softmax output layer
-- One-hot encoded labels
-- Data normalization
-- Training and validation split
-- Model saving and loading
-- Handwritten digit prediction and visualization using Matplotlib
+Open to research internships and collaborations in clinical ML.
 
-## Technologies
+### Selected work
 
-- Python
-- NumPy
-- Pandas
-- Matplotlib
+| Project | What it shows |
+|---|---|
+| [Does Retrieval Help?](https://github.com/safiyakhan46/RAG_Healthcare_Guidance_Experiment) | Controlled RAG study on 15,817 NIH guidance documents: retrieval helped when the right source was found, and a cited answer could still be wrong. Paired bootstrap CIs, Holm-corrected tests. |
+| [RSNA Knee MRI (Kaggle)](https://safiyakhan.netlify.app/#portfolio) | 12-finding MRI classifier trained mostly on weak labels from radiology reports in eight languages; 0.65 macro-AUC on the expert holdout. |
+| [RescueAI](https://github.com/safiyakhan46/RescueAI) | Emergency intake assistant where deterministic red-flag rules, not the LLM, decide escalation. |
+| [AI Triage Bias Auditor](https://github.com/safiyakhan46/ai-triage-bias-auditor) | Fairness audit of a transparent ICU triage score on MIMIC-III Demo: score gaps, demographic parity, calibration. |
+| [Hospital Readmission Risk](https://github.com/safiyakhan46/healthcare-readmission-ai) | Random Forest on 100,000+ encounters, deployed as a [Streamlit app](https://healthcare-readmission-ai-bjrschq9zeuv8nz7bq8anc.streamlit.app/). |
+| [Database engine](https://github.com/safiyakhan46/database---engine) · [Shell in C](https://github.com/safiyakhan46/mini-shell) · [MNIST in NumPy](https://github.com/safiyakhan46/-MNIST-Neural-Network-From-Scratch) | Systems and fundamentals, built from scratch. |
 
-## Dataset
+### Papers
 
-This project uses the **Kaggle Digit Recognizer** dataset based on the MNIST handwritten digit dataset.
+- Khan, S. S. (2026). [Algorithmic triage scoring to reduce alarm fatigue in post-surgical ICU settings: a simulation study](https://zenodo.org/records/20451749). Zenodo.
+- Khan, S. S. (2026). [Blockchain for secure patient health records in telemedicine](https://zenodo.org/records/19438102) (research proposal). Zenodo.
 
-- 42,000 labeled training images
-- 28×28 grayscale images
-- 784 input features
-- 10 output classes (digits 0–9)
+### Tools
 
-## Project Structure
+Python · PyTorch · scikit-learn · Hugging Face Transformers · FAISS · pandas · SciPy · statsmodels · pydicom · Streamlit · FastAPI · C · Git
 
-```
-MNIST-Neural-Network/
-│
-├── data/
-│   └── train.csv
-├── main.py
-├── network.py
-├── utils.py
-├── requirements.txt
-├── README.md
-└── .gitignore
-```
+### Contact
 
-## Neural Network Architecture
-
-```
-Input Layer (784)
-        │
-        ▼
-Hidden Layer (ReLU)
-        │
-        ▼
-Output Layer (Softmax)
-        │
-        ▼
-Predicted Digit
-```
-
-## Results
-
-The network successfully learns to classify handwritten digits using gradient descent and backpropagation.
-
-Implemented features include:
-
-- Forward propagation
-- Backpropagation
-- Weight updates using gradient descent
-- Accuracy evaluation
-- Validation testing
-- Visualization of model predictions
-
-## Future Improvements
-
-- Increase hidden layer size
-- Multiple hidden layers
-- Mini-batch gradient descent
-- Adam optimizer
-- Convolutional Neural Networks (CNNs)
-- Interactive digit drawing interface
-
-## What I Learned
-
-This project strengthened my understanding of:
-
-- Neural network architecture
-- Matrix operations with NumPy
-- Forward and backward propagation
-- Gradient descent optimization
-- Data preprocessing
-- Scientific computing in Python
-
-## License
-
-This project is intended for educational purposes.
+[Portfolio](https://safiyakhan.netlify.app) · [LinkedIn](https://www.linkedin.com/in/safiya-salman-khan-573153325/) · [ORCID](https://orcid.org/0009-0008-9454-8400) · [Email](mailto:safiya.salkhan@gmail.com)
