@@ -1,4 +1,0 @@
-# Kaggle data: download it yourself, do not commit
-*.zip
-*.csv
-__pycache__/
